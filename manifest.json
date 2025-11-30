@@ -1,11 +1,11 @@
 {
   "name": "Slide Memorizer",
-  "short_name": "Slides",
-  "start_url": "./learn.html",
+  "short_name": "Slide Memorizer",
+  "start_url": "./index.html",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2563eb",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "description": "Offline-capable slide memorizer",
   "icons": [
     {

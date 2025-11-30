@@ -165,33 +165,3 @@ imageEnlarger.addEventListener("click", (e) => {
     enlargedImage.src = "";
   }
 });
-
-let deferredPrompt;
-const installBtn = document.getElementById("installBtn");
-console.log("Install button found:", installBtn);
-
-// Listen for PWA install availability
-window.addEventListener("beforeinstallprompt", (e) => {
-  e.preventDefault(); // Prevent default mini-infobar
-  deferredPrompt = e;
-  console.log("PWA install prompt available");
-});
-
-// Handle button click
-installBtn.addEventListener("click", async () => {
-  console.log("Prompting user to install PWA");
-  if (!deferredPrompt) return;
-
-  deferredPrompt.prompt(); // Show the browser install prompt
-
-  const { outcome } = await deferredPrompt.userChoice;
-  console.log(`User response to install: ${outcome}`);
-
-  if (outcome === "accepted") {
-    console.log("User accepted the PWA installation");
-    installBtn.style.display = "none"; // Hide install button after acceptance
-  } else {
-    console.log("User dismissed the PWA installation");
-  }
-  deferredPrompt = null;
-});
