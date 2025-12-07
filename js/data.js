@@ -23,5 +23,20 @@ export const data = {
         "https://raw.githubusercontent.com/Criticalcarpet/Slide-memorizer/refs/heads/image-store/actinomycosis-2.png"
       ],
     },
+    {
+      id: 4,
+      name: "12 - CVC Lung",
+      image: [
+        "https://raw.githubusercontent.com/Criticalcarpet/slide-memorizer/refs/heads/image-store/cvc_lung-1.png",
+        "https://raw.githubusercontent.com/Criticalcarpet/slide-memorizer/refs/heads/image-store/cvc_lung-2.png"
+      ],
+    },
+    {
+      id: 5,
+      name: " - Myocardial Infarction",
+      image: [
+        "https://raw.githubusercontent.com/Criticalcarpet/slide-memorizer/refs/heads/image-store/myocardial_infarction.png"
+      ],
+    },
   ],
 };
