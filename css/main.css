@@ -7,12 +7,12 @@
 :root {
   --primary-color: #111827;
   --secondary-color: #374151;
-  --accent-color: #2563eb;
-  --text-primary: #111827;
-  --text-secondary: #6b7280;
-  --background: #ffffff;
-  --background-alt: #f9fafb;
-  --border-color: #e5e7eb;
+  --accent-color: #888888;
+  --text-primary: #E0E0E0;
+  --text-secondary: #B0B0B0;
+  --background: #121212;
+  --background-alt: #374151;
+  --border-color: #444444;
   --nav-height: 72px;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .hero-btn.secondary:hover {
-  background: #f3f4f6;
+  background: var(--accent-color);
 }
 
 .content-section {

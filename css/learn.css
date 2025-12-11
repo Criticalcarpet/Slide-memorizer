@@ -10,12 +10,12 @@
 :root {
   --primary-color: #111827;
   --secondary-color: #374151;
-  --accent-color: #2563eb;
-  --text-primary: #111827;
-  --text-secondary: #6b7280;
-  --background: #ffffff;
-  --background-alt: #f9fafb;
-  --border-color: #e5e7eb;
+  --accent-color: #888888;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --background: #121212;
+  --background-alt: #374151;
+  --border-color: #444444;
   --nav-height: 72px;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .hero-btn.secondary:hover {
-  background: #f3f4f6;
+  background: var(--accent-color);
 }
 
 .content-section {
@@ -196,7 +196,7 @@ body {
   object-fit: contain; /* show full image */
   display: block;
   margin: 0 auto;
-  background: #f9fafb; /* optional background for letterboxing */
+  background: #121212; /* optional background for letterboxing */
 }
 
 .list:hover {
@@ -221,17 +221,18 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #111;
-  border: none;
+  background-color: var(--accent-color);
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  color: var(--text-primary);
+  background: transparent;
+  border: 1px solid var(--border-color);
 }
 
 .buttons button:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background: var(--background-alt);
 }
 
 /* ---------------------------
@@ -296,8 +297,6 @@ body {
   }
 }
 
-
-
 .image-enlarger {
   position: fixed;
   top: 0;
@@ -325,4 +324,3 @@ body {
   color: #fff;
   cursor: pointer;
 }
-
