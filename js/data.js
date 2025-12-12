@@ -38,5 +38,27 @@ export const data = {
         "https://raw.githubusercontent.com/Criticalcarpet/slide-memorizer/refs/heads/image-store/myocardial_infarction.png"
       ],
     },
+    {
+      id: 6,
+      name: "13 - Lipoma",
+      image: [
+        "https://raw.githubusercontent.com/Criticalcarpet/slide-memorizer/refs/heads/image-store/lipoma.png"
+      ],
+    },
+    {
+      id: 7,
+      name: "14 - Capillary Hemangioma",
+      image: [
+        "https://raw.githubusercontent.com/Criticalcarpet/slide-memorizer/refs/heads/image-store/capillary_hemangioma-1.png",
+        "https://raw.githubusercontent.com/Criticalcarpet/slide-memorizer/refs/heads/image-store/capillary_hemangioma-2.png"
+      ],
+    },
+    {
+      id: 8,
+      name: "18 - Adenocarcinoma of the Intestine",
+      image: [
+        "https://raw.githubusercontent.com/Criticalcarpet/slide-memorizer/refs/heads/image-store/adenocarcinoma_intestine.png"
+      ],
+    }
   ],
 };
